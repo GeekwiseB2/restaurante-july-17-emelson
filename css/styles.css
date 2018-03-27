@@ -24,3 +24,29 @@
 }
 
 /* navbar styles end */
+/* carousel styles start */
+.item {
+  height: 450px;
+  background-size: cover;
+  background-position: center;
+}
+
+.wood-bg {
+  background-image: url('../img/wood-2.jpg');
+}
+
+.seating-bg {
+  background-image:url('../img/restaurant-2.jpg')
+}
+
+.flex-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.hero-logo {
+  width: 240px;
+}
+/* carousel styles end */

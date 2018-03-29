@@ -1,7 +1,6 @@
 /* fonts */
 
 /* navbar styles */
-
 .navbar-default {
   background-color: transparent;
   border: none;
@@ -22,5 +21,47 @@
   color: #F65239;
   background-color: rgba(0, 0, 0, .25);
 }
-
 /* navbar styles end */
+/* carousel styles start */
+.item {
+  height: 450px;
+  background-size: cover;
+  background-position: center;
+}
+
+.wood-bg {
+  background-image: url('../img/wood-2.jpg');
+}
+
+.seating-bg {
+  background-image:url('../img/restaurant-2.jpg')
+}
+
+.farm-bg {
+  background-image: url('../img/farm-2.jpg');
+}
+
+.flex-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex-direction: column;
+}
+
+.flex-slide-padding {
+  padding-top: 140px;
+}
+
+.hero-logo {
+  width: 240px;
+}
+
+.btn-warning {
+  background-color: #F8512F;
+}
+
+.btn-warning:hover {
+  background-color: #d34326;
+}
+/* carousel styles end */

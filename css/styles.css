@@ -109,7 +109,8 @@ body {
 /* review styles start */
 #review  {
   background-image: url('../img/food_review.jpg');
-  background-size: cover: auto;
+  background-size: cover;
+  background-attachment: fixed;
   background-position: center;
   padding: 200px 0px;
 }
@@ -129,3 +130,19 @@ body {
   font-size: 32px;
 }
 /* review styles end */
+
+/* menu styles starts */
+#menu {
+  background-image: url('../img/black_linen.png');
+}
+
+#menu .tab-content {
+  background-color: #fff;
+}
+
+#menu .nav-tabs.nav-justified>.active>a,
+#menu .nav-tabs.nav-justified>.active>a:focus,
+#menu .nav-tabs.nav-justified>.active>a:hover {
+  color: #F8512F;
+}
+/* menu styles end */

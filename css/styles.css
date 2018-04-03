@@ -14,8 +14,13 @@
 color: #fff;
 }
 
+.red-text {
+  color: red;
+}
+
 body {
   font-family: 'Raleway', sans-serif;
+  position: relative;
 }
 
 /* navbar styles */
@@ -150,3 +155,15 @@ body {
   font-weight: bold;
 }
 /* menu styles end */
+
+/* contact styles */
+#contact {
+  background: linear-gradient(#F8512F, #fff);
+}
+
+form {
+  background-color: #FC673D;
+  border: 1px solid #fff;
+  padding: 20px;
+}
+/* contact styles */
